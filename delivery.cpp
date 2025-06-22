@@ -24,5 +24,6 @@ void read_courier(const string& filename){
         couriers.push_back({dest,prio,priority_value(prio)});
     }
 
+    
     sort(couriers.begin(), couriers.end(), compare_priority);
 }
